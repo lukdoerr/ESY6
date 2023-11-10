@@ -1,0 +1,29 @@
+parallel << EOM
+./worker 000
+./worker 100
+./worker 200
+./worker 010
+./worker 110
+./worker 210
+./worker 020
+./worker 120
+./worker 220
+./worker 001
+./worker 101
+./worker 201
+./worker 011
+./worker 111
+./worker 211
+./worker 021
+./worker 121
+./worker 221
+./worker 002
+./worker 102
+./worker 202
+./worker 012
+./worker 112
+./worker 212
+./worker 022
+./worker 122
+./worker 222
+EOM
